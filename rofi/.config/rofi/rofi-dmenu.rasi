@@ -1,0 +1,70 @@
+/**
+ * ROFI Color theme
+ * NAME: dt-dmenu.rasi
+ * DESCRIPTION: This is a horizontal prompt similar to dmenu.
+ * AUTHOR: Derek Taylor (DT)
+ */
+
+/*
+* Minor changes made by NimbleClint.
+*/
+
+* {
+    background-color:           #1b181f;
+    border-color:               #1b181f;
+    text-color:                 #f8f8ff;
+    height:                     28px;
+    font:                       "Fira Sans 11";
+    prompt-font:                "Fira Sans 11";
+    prompt-background:          #614e7a;
+    prompt-foreground:          #1b181f;
+    prompt-padding:             5px;
+    selected-normal-background: #a7623c;
+    selected-normal-foreground: #1b181f;
+}
+#window {
+    anchor: south;
+    location: south;
+    width: 100%;
+    padding: 0px;
+    children: [ horibox ];
+}
+#horibox {
+    orientation: horizontal;
+    children: [ prompt, entry, listview ];
+}
+#prompt {
+    padding:          @prompt-padding;
+    background-color: @prompt-background;
+    text-color:       @prompt-foreground;
+    font:             @prompt-font;
+    padding: 4px;
+}
+#listview {
+    layout: horizontal;
+    lines: 100;
+}
+#entry {
+    padding: 7px;
+    expand: false;
+    width: 10em;
+}
+#element {
+    padding: 4px 10px 4px 4px;
+}
+#element selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#element-text selected {
+  background-color:   @selected-normal-background;
+}
+
+#element-icon selected {
+  background-color: @selected-normal-background;
+}
+
+/*
+vim:ft=css
+*/

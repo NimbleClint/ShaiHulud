@@ -1,0 +1,157 @@
+/*
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Mail : adi1090x@gmail.com
+ * Github : @adi1090x
+ * Reddit : @adi1090x
+ *
+ */
+
+configuration {
+    font:                           "DejaVu Sans 11";
+    show-icons:                     true;
+	icon-theme: 					"Breeze";
+    display-drun: 					"";
+    drun-display-format:            "{name}";
+    threads:                        0;
+    scroll-method:                  0;
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+
+@import "../applets/styles/colors.rasi"
+
+* {
+  background-alt:		@background-light;
+  border:			@background;
+  selected:			@background-light;
+  urgent:			@accent;
+}
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @foreground;
+    border-radius:                  0px;
+    border:			    3px;
+    border-color:		    @accent;
+    height:                         278px;
+    width:                          310px;
+    location:                       northeast;
+    anchor:                         northeast;
+    x-offset:                       -10;
+    y-offset:                       46;
+}
+
+prompt {
+    enabled: 				false;
+	padding: 			0px 8px 0px 8px;
+	background-color: 		@background;
+	text-color: 			@foreground;
+	font:				"Hack Nerd Font Mono 16";
+}
+
+
+inputbar {
+    background-color:               @background;
+    text-color:                     @foreground;
+    expand:                         false;
+    border:                  	    1px;
+    border-radius:                  2px;
+    border-color:                   @border;
+    margin:                         0px 0px 0px 0px;
+    padding:                        5px 5px 5px 5px;
+    position:                       center;
+}
+
+
+entry {
+    background-color:               @background;
+    text-color:                     @foreground;
+    placeholder-color:              @foreground;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Search";
+    blink:                          true;
+}
+
+case-indicator {
+    background-color:               @background;
+    text-color:                     @foreground;
+    spacing:                        0;
+}
+
+
+listview {
+    background-color:               @background;
+    columns:                        1;
+    spacing:                        4px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                        8px;
+    padding:                        16px 16px 16px 16px;
+}
+
+element {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    orientation:                    horizontal;
+    border-radius:                  0px;
+    padding:                        4px 4px 4px 4px;
+}
+
+element-icon {
+    size:                           0ch;
+    border:                         0px;
+}
+
+element-text {
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0;
+    margin:                         2px 0px 2px 0px;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+    border-radius:                  9px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+}
+
+element selected {
+    background-color:               @accent;
+    text-color:                     @foreground;
+    border:                  	    0px;
+    border-radius:                  0px;
+    border-color:                   @border;
+}
+
+element selected.urgent {
+    background-color:               @accent;
+    text-color:                     @foreground;
+}
+
+element selected.active {
+    background-color:               @accent;
+    color:                          @foreground;
+}
+
+/*
+ vim:ft=css 
+*/

@@ -49,5 +49,7 @@ FiraCode Nerd Font |
 
 ## Other Configurations
 Please note: these configuration files are no longer being updated.
+
 [FluidTile for Qtile](https://github.com/NimbleClint/FluidTile)
+
 [Adventure Time for i3-Gaps](https://github.com/NimbleClint/Adventure-Time-i3)

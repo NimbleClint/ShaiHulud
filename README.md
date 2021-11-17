@@ -42,9 +42,12 @@ Fonts |
 Fira Sans |
 FiraCode Nerd Font |
 
+
+### Wallpaper
+[I'm not sure who created this wallpaper, but it can be found here.](https://images.wallpapersden.com/image/download/dune-2020-cool-4k-minimalist_bGhqbWyUmZqaraWkpJRobWllrWdma2U.jpg)
+
+
 ## Other Configurations
 Please note: these configuration files are no longer being updated.
-
 [FluidTile for Qtile](https://github.com/NimbleClint/FluidTile)
-
 [Adventure Time for i3-Gaps](https://github.com/NimbleClint/Adventure-Time-i3)

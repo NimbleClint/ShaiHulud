@@ -1,4 +1,4 @@
-# Shai-Hulud Qtile Configuration 
+# Shai-Hulud - A qtile configuration for the (spice) masses
 ![Shai-Hulud Desktop](screenshots/shaiHulud_screenshot1.png)
 ![Shai-Hulud Terminals](screenshots/shaiHulud_screenshot3.png)
 ![Shai-Hulud Menus](screenshots/shaiHulud_screenshot2.png)

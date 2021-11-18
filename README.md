@@ -44,7 +44,7 @@ FiraCode Nerd Font |
 
 
 ### Wallpaper
-[I'm not sure who created this wallpaper, but it can be found here.](https://images.wallpapersden.com/image/download/dune-2020-cool-4k-minimalist_bGhqbWyUmZqaraWkpJRobWllrWdma2U.jpg)
+[Wallpaper by Jorge Hardt](https://images.wallpapersden.com/image/download/dune-2020-cool-4k-minimalist_bGhqbWyUmZqaraWkpJRobWllrWdma2U.jpg)
 
 
 ## Other Configurations
